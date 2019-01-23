@@ -13,5 +13,6 @@ public class Min2 {
             System.out.println("该值是0");
         else
             System.out.println("该值不是0");
+        System.out.println("123");
     }
 }
