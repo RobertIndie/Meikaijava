@@ -1,10 +1,10 @@
 package Chap01;
 
-//�������ã������𣿡���ƴ���ַ���������
-class HowAreYou2{
-	public static void main(String[] args){
+//这是练习连接两个语句
+class HowAreYou2 {
+    public static void main(String[] args) {
 
-		System.out.println("��ã�"+"������");
+        System.out.println("今天是" + "星期四");
 
-	}
+    }
 }

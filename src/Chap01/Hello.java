@@ -1,9 +1,9 @@
 package Chap01;
 
-class Hello{
-	public static void main(String[] args){
-		System.out.println("first java");
-		System.out.println("show");
-	}
+class Hello {
+    public static void main(String[] args) {
+        System.out.println("first java");
+        System.out.println("show");
+    }
 }
 
