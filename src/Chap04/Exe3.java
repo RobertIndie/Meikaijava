@@ -9,14 +9,14 @@ public class Exe3 {
         Scanner stdIn = new Scanner(System.in);
 
         System.out.println("整数A:");
-        int a=stdIn.nextInt();
+        int a = stdIn.nextInt();
         System.out.println("整数B:");
-        int b=stdIn.nextInt();
+        int b = stdIn.nextInt();
 
-        int min=a<b?a:b;
-        int n=a<b?(b-a):(a-b);
-        for (int i=0;i<(n+1);i++)
-            System.out.println(min+i);
+        int min = a < b ? a : b;
+        int n = a < b ? (b - a) : (a - b);
+        for (int i = 0; i < (n + 1); i++)
+            System.out.println(min + i);
 
 
     }

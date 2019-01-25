@@ -8,7 +8,7 @@ public class Exe2 {
         Random rand = new Random();
         Scanner stdIn = new Scanner(System.in);
 
-        int no = 10+rand.nextInt(90);//目标数字：生成一个10~99的随机数
+        int no = 10 + rand.nextInt(90);//目标数字：生成一个10~99的随机数
 
         System.out.println("猜数字游戏开始！！");
         System.out.println("请猜一个10~99的数字。");
