@@ -12,7 +12,7 @@ public class Exe23 {
         for (int i = 1; i <= n; i++) {
 
             drawChar(n - i, " ");
-            drawChar((i - 1) * 2,String.valueOf(("i%10")));
+            drawChar((i - 1) * 2,String.valueOf(i%10));
             drawChar(n - i, " ");
             System.out.println();
         }
