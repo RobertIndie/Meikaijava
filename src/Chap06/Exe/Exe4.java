@@ -5,27 +5,40 @@ import java.util.Scanner;
 
 public class Exe4 {
     public static void main(String[] args) {
-        Random rand = new Random();
         Scanner stdIn = new Scanner(System.in);
+        Random rand = new Random();
 
         System.out.print("元素个数：");
-        int b = stdIn.nextInt();
-        int y;
-        int[] a = new int[b];
+        int n = stdIn.nextInt();
+        int[] a = new int[n];
 
-        for (int i = 0; i < b; i++){
-            a[i] = rand.nextInt(10);
+        for (int i = 0; i < n; i++)
+            a[i] = 1 + rand.nextInt(10);
+        // 输出12行
+        // *
+        // -
+        // 0
+        for (int i = 0; i <= 12; i++) {
+            if (i <= 10) {
+                for (int j = 0; j < n; j++)
+                    System.out.print((i > (10 - a[j])) ? "* " : "  ");
+                System.out.println();
+            } else if (i == 11) {
+                for (int k = 0; k <= 2 * n - 2; k++)
+                    System.out.print("-");
+                System.out.println();
+            } else {
+                for (int x = 0, l = 1; l <= 2 * n - 1; l++) {
 
-            for (int m = 1; m <a[i]; m++) {
-                   System.out.print(' ');
-                for (int n  = 1; n<a[i]; n++)
-                    System.out.print(" *");
+                    if (l % 2 == 0) {
+                        System.out.print(" ");
+                    } else {
+                        System.out.print(x % 10);
+                        x++;
+                    }
+
+                }
             }
-    }
-        System.out.println("-----------------------");
-        for (int x=1;x<b;x++) {
-            y = x / 10;
-            System.out.print(y);
         }
     }
 }

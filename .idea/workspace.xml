@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2531d654-0d8b-4b47-aa7d-f899da78425d" name="Default Changelist" comment="不知道为什么p155的代码5-11输出答案和书上不一样">
-      <change afterPath="$PROJECT_DIR$/src/Chap05/Abc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/Exe/Exe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/Exe/Exe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/Exe/Exe3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/Exe/Exe4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/IntArray1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/IntArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/IntArrayRand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/IntArrayScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06/PointSumAve.java" afterDir="false" />
+    <list default="true" id="2531d654-0d8b-4b47-aa7d-f899da78425d" name="Default Changelist" comment="练习6-4想不到要怎样输出，试过分块，可是有的中间会缺了，输出应该是横向输出先的，本来想直接用二维数组，每个位置随机空格或者星星，可是这样子就不能保证纵向是连续的了">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap05/Exe/Exe6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap05/Exe/Exe6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap05/Exe/Exe7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap05/Exe/Exe7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06/Exe/Exe4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06/Exe/Exe4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chap06/Exe/Exe4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="177">
+              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,9 +124,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
+    <option name="x" value="711" />
     <option name="y" value="45" />
-    <option name="width" value="1214" />
+    <option name="width" value="1215" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -184,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549028315460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549078429576" />
     <property name="last_opened_file_path" value="C:/Documents and Settings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -323,7 +312,7 @@
       <workItem from="1548658861136" duration="18547000" />
       <workItem from="1548821427492" duration="19156000" />
       <workItem from="1548861223511" duration="16000" />
-      <workItem from="1548861273153" duration="14542000" />
+      <workItem from="1548861273153" duration="18610000" />
     </task>
     <task id="LOCAL-00001" summary="在intellij IDEA首次提交">
       <created>1548252970586</created>
@@ -423,18 +412,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548855228311</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="练习6-4想不到要怎样输出，试过分块，可是有的中间会缺了，输出应该是横向输出先的，本来想直接用二维数组，每个位置随机空格或者星星，可是这样子就不能保证纵向是连续的了">
+      <created>1549028568676</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1549028568676</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118272000" />
+    <option name="totallyTimeSpent" value="122340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="设计器" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49447513" visible="true" weight="0.3031528" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49447513" weight="0.3031528" />
       <window_info id="Structure" order="1" sideWeight="0.5041322" side_tool="true" weight="0.2700081" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,7 +440,7 @@
       <window_info anchor="bottom" id="调试" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6378335" visible="true" weight="0.45640075" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6378335" weight="0.45640075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,7 +449,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.29313543" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49636218" weight="0.3283859" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.36216652" side_tool="true" visible="true" weight="0.45640075" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.36216652" side_tool="true" weight="0.45640075" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48585287" weight="0.17996289" />
       <window_info anchor="right" id="调色板" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -466,6 +462,40 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info id="设计器" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49447513" visible="true" weight="0.3031528" />
+      <window_info id="Structure" order="2" sideWeight="0.5041322" side_tool="true" weight="0.2700081" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50276244" side_tool="true" weight="0.26596606" />
+      <window_info anchor="bottom" id="调试" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6378335" visible="true" weight="0.45640075" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.29313543" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49636218" weight="0.3283859" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.36216652" side_tool="true" visible="true" weight="0.45640075" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.48585287" weight="0.17996289" />
+      <window_info anchor="right" id="调色板" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -527,7 +557,8 @@
     <MESSAGE value="补上全面漏了的练习，不过练习4-23输出有问题" />
     <MESSAGE value="练习5-6和5-7有两个循环，不知道要怎样放在一起" />
     <MESSAGE value="不知道为什么p155的代码5-11输出答案和书上不一样" />
-    <option name="LAST_COMMIT_MESSAGE" value="不知道为什么p155的代码5-11输出答案和书上不一样" />
+    <MESSAGE value="练习6-4想不到要怎样输出，试过分块，可是有的中间会缺了，输出应该是横向输出先的，本来想直接用二维数组，每个位置随机空格或者星星，可是这样子就不能保证纵向是连续的了" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习6-4想不到要怎样输出，试过分块，可是有的中间会缺了，输出应该是横向输出先的，本来想直接用二维数组，每个位置随机空格或者星星，可是这样子就不能保证纵向是连续的了" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Chap05/Average1.java">
@@ -879,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chap06/Exe/Exe4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="177">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
